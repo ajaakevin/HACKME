@@ -149,11 +149,11 @@
       </td>
     </tr>
     <tr>
-      <td align="center" width="200">
-        <img src="https://img.icons8.com/fluency/48/user.png" width="48"/>
-        <br><b>👤 Profile Info</b>
-        <br><sub>Info profile picture & about</sub>
-      </td>
+   <td align="center" width="200">
+  <img src="https://cdn.jsdelivr.net/npm/simple-icons@v5/icons/github.svg" width="48" style="filter: invert(1);">
+  <br><b>👤 Profile Info</b>
+  <br><sub>Info profile picture & about</sub>
+</td>
       <td align="center" width="200">
         <img src="https://img.icons8.com/fluency/48/save.png" width="48"/>
         <br><b>💾 Save Results</b>
@@ -215,15 +215,19 @@ cd HACKME
 python hackme.py
 ```
 </details><details> <summary><b>🪟 Untuk Windows</b></summary>
-:: 1. Download Python dari python.org (centang "Add Python to PATH")
-:: 2. Buka CMD atau PowerShell
+  
+### :: 1. Download Python dari python.org (centang "Add Python to PATH")
 
+### :: 2. Buka CMD atau PowerShell
+```bash
 git clone https://github.com/ruyynn/HACKME.git
 cd HACKME
 python hackme.py
-
+```
 </details><details> <summary><b>🍎 Untuk MacOS</b></summary>
+  
 # Install Python jika belum ada
+```bash
 brew install python
 
 # Clone repository
@@ -232,7 +236,7 @@ cd HACKME
 
 # Jalankan
 python3 hackme.py
-
+```
 </details>
 <!-- Usage Guide --><h2>🚀 Cara Penggunaan</h2><div align="center"> <table> <tr> <th>Menu</th> <th>Fungsi</th> <th>Contoh Input</th> </tr> <tr> <td><code>[1]</code></td> <td><b>Check Number</b> - Cek registrasi nomor</td> <td><code>08123456789</code></td> </tr> <tr> <td><code>[2]</code></td> <td><b>Get Info</b> - Informasi lengkap target</td> <td>Otomatis dari hasil terakhir</td> </tr> <tr> <td><code>[3]</code></td> <td><b>Check Status</b> - Cek online & last seen</td> <td>Update status terkini</td> </tr> <tr> <td><code>[4]</code></td> <td><b>Profile Info</b> - Profile picture & about</td> <td>Info profile target</td> </tr> <tr> <td><code>[5]</code></td> <td><b>View Results</b> - Lihat semua hasil</td> <td>Daftar hasil scan</td> </tr> <tr> <td><code>[6]</code></td> <td><b>Clear Results</b> - Hapus semua hasil</td> <td>Konfirmasi Y/N</td> </tr> </table> </div>
 <!-- Demo GIF Placeholder --><h2>🎥 Demo</h2><div align="center"> <img src="https://via.placeholder.com/800x400/0D1117/00FF00?text=Demo+Coming+Soon" alt="Demo" width="800"> <br> <i>🚧 Demo video akan segera ditambahkan</i> </div>
@@ -299,11 +303,205 @@ Number> 08123456789
         └── Gambar untuk README
   ```
 
-<!-- Roadmap --><h2>🗺️ Roadmap Pengembangan</h2><div align="center"> <table> <tr> <td>✅ v1.0</td> <td>Rilis awal dengan fitur dasar</td> </tr> <tr> <td>✅ v2.0</td> <td>Tampilan 
-lebih keren, save results</td> </tr> <tr> <td>🔄 v2.5</td> <td>Database lokal, export CSV</td> </tr> <tr> <td>🔜 v3.0</td> <td>Web interface, API integration</td> </tr> </table> </div>
-<!-- FAQ --><h2>❓ FAQ (Frequently Asked Questions)</h2><details> <summary><b>Apakah tools ini gratis?</b></summary> <p><b>✅ YA, 100% GRATIS!</b> HACKME adalah open source project dengan lisensi MIT. Silakan gunakan, modifikasi, dan distribusikan.</p> </details><details> <summary><b>Apakah tools ini ilegal?</b></summary> <p><b>⚠️ TIDAK</b> jika digunakan untuk tujuan edukasi dan pembelajaran. Tools ini dibuat untuk memahami cara kerja OSINT dan keamanan siber. Gunakan dengan bijak dan bertanggung jawab.</p> </details><details> <summary><b>Bisa jalan di Termux?</b></summary> <p><b>✅ BISA!</b> HACKME sudah diuji di Termux dan berjalan sempurna. Ikuti panduan instalasi untuk Termux di atas.</p> </details><details> <summary><b>Perlu install library tambahan?</b></summary> <p><b>✅ TIDAK PERLU!</b> Tools ini hanya menggunakan library bawaan Python (built-in), jadi langsung jalan tanpa install tambahan.</p> </details><details> <summary><b>Data disimpan dimana?</b></summary> <p><b>📁 Semua hasil scan otomatis tersimpan di folder <code>results/</code></b> dalam format JSON. Data hanya disimpan lokal di perangkat Anda.</p> </details><details> <summary><b>Apakah nomor saya aman?</b></summary> <p><b>🔒 AMAN.</b> Tools ini bekerja secara lokal, tidak mengirim data ke server manapun. Semua proses ada di perangkat Anda.</p> </details>
-<!-- Support Section --><h2>💖 Dukung Project Ini</h2><div align="center"> <p>Jika project ini bermanfaat, Anda bisa mendukung dengan cara:</p> <br> <table> <tr> <td align="center" width="300"> <a href="https://saweria.co/Ruyynn"> <img src="https://img.icons8.com/color/96/000000/indonesia.png" width="64"/> <br> <h3>🇮🇩 Saweria</h3> <p><code>https://saweria.co/Ruyynn</code></p> </a> <p>Dukung melalui platform Indonesia</p> </td> <td align="center" width="300"> <a href="mailto:ruyynn25@gmail.com"> <img src="https://img.icons8.com/color/96/000000/gmail.png" width="64"/> <br> <h3>📧 Email Collab</h3> <p><code>ruyynn25@gmail.com</code></p> </a> <p>Untuk kerjasama dan kolaborasi</p> </td> </tr> </table> <br> <!-- QR Code Saweria (optional, bisa diganti dengan QR asli nanti) --> <details> <summary><b>📱 Scan QR Code untuk Support</b></summary> <br> <img src="https://api.qrserver.com/v1/create-qr-code/?size=200x200&data=https://saweria.co/Ruyynn" alt="QR Saweria"> <br> <i>Scan dengan aplikasi QR reader untuk donasi via Saweria</i> </details> <br> <!-- Donation Options --> <h3>💎 Cara Lain Mendukung</h3> <p> ⭐ Star repository ini<br> 🔄 Fork dan bagikan ke teman<br> 🐛 Laporkan bug atau saran fitur<br> 📢 Mention project ini di sosial media </p> </div>
-<!-- Contributors --><h2>👥 Kontributor</h2><div align="center"> <table> <tr> <td align="center"> <a href="https://github.com/ruyynn"> <img src="https://avatars.githubusercontent.com/u/ruyynn?v=4" width="100" style="border-radius:50%"/> <br> <b>Ruyynn</b> </a> <br> <sub>Founder & Developer</sub> </td> </tr> </table> </div>
-<!-- How to Contribute --><h2>🤝 Cara Berkontribusi</h2><div align="center"> <p>Kontribusi selalu diterima dengan senang hati! Ikuti langkah-langkah berikut:</p> <ol align="left"> <li>🍴 Fork repository ini</li> <li>🌿 Buat branch baru: <code>git checkout -b fitur-keren</code></li> <li>💻 Commit perubahan: <code>git commit -m 'Add fitur keren'</code></li> <li>📤 Push ke branch: <code>git push origin fitur-keren</code></li> <li>🎯 Buat Pull Request</li> </ol> <br> <h3>📋 Guidelines Kontribusi</h3> <p> ✅ Follow PEP 8 untuk Python code<br> ✅ Tambahkan komentar untuk kode yang kompleks<br> ✅ Update dokumentasi jika diperlukan<br> ✅ Test sebelum submit PR </p> </div>
-<!-- License --><h2>📜 Lisensi</h2><div align="center"> <p> <strong>MIT License</strong> </p> <p> Copyright (c) 2026 Ruyynn </p> <p> Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions: </p> <p> The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software. </p> <p> <i>THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.</i> </p> </div>
-<!-- Footer --><div align="center"> <img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png" width="100%"> <br> <br> <p> <strong>Made with ❤️ in Indonesia</strong> </p> <p> <a href="https://github.com/ruyynn/HACKME/issues/new">Laporkan Bug</a> • <a href="https://github.com/ruyynn/HACKME/discussions">Diskusi</a> • <a href="mailto:ruyynn25@gmail.com">Hubungi Developer</a> </p> <p> <a href="#-hackme-whatsapp-tools-v20---free-osint-edition">⬆️ Kembali ke Atas</a> </p> <br> <!-- Last Updated --> <p> <sub>Last Updated: 2026-03-02 | Version 2.0</sub> </p> </div>
+<!-- Roadmap -->
+<h2>🗺️ Roadmap Pengembangan</h2>
+
+<div align="center">
+<table>
+<tr>
+<td>✅ v1.0</td>
+<td>Rilis awal dengan fitur dasar</td>
+</tr>
+
+<tr>
+<td>✅ v2.0</td>
+<td>Tampilan lebih keren, save results</td>
+</tr>
+
+<tr>
+<td>🔄 v2.5</td>
+<td>Database lokal, export CSV</td>
+</tr>
+
+<tr>
+<td>🔜 v3.0</td>
+<td>Web interface, API integration</td>
+</tr>
+</table>
+</div>
+
+<!-- FAQ -->
+<h2>❓ FAQ (Frequently Asked Questions)</h2>
+
+<details>
+<summary><b>Apakah tools ini gratis?</b></summary>
+<p><b>✅ YA, 100% GRATIS!</b> HACKME adalah open source project dengan lisensi MIT. Silakan gunakan, modifikasi, dan distribusikan.</p>
+</details>
+
+<details>
+<summary><b>Apakah tools ini ilegal?</b></summary>
+<p><b>⚠️ TIDAK</b> jika digunakan untuk tujuan edukasi dan pembelajaran. Tools ini dibuat untuk memahami cara kerja OSINT dan keamanan siber. Gunakan dengan bijak dan bertanggung jawab.</p>
+</details>
+
+<details>
+<summary><b>Bisa jalan di Termux?</b></summary>
+<p><b>✅ BISA!</b> HACKME sudah diuji di Termux dan berjalan sempurna. Ikuti panduan instalasi untuk Termux di atas.</p>
+</details>
+
+<details>
+<summary><b>Perlu install library tambahan?</b></summary>
+<p><b>✅ TIDAK PERLU!</b> Tools ini hanya menggunakan library bawaan Python (built-in), jadi langsung jalan tanpa install tambahan.</p>
+</details>
+
+<details>
+<summary><b>Data disimpan dimana?</b></summary>
+<p><b>📁 Semua hasil scan otomatis tersimpan di folder <code>results/</code></b> dalam format JSON. Data hanya disimpan lokal di perangkat Anda.</p>
+</details>
+
+<details>
+<summary><b>Apakah nomor saya aman?</b></summary>
+<p><b>🔒 AMAN.</b> Tools ini bekerja secara lokal, tidak mengirim data ke server manapun. Semua proses ada di perangkat Anda.</p>
+</details>
+
+<!-- Support Section -->
+<h2>💖 Dukung Project Ini</h2>
+
+<div align="center">
+<p>Jika project ini bermanfaat, Anda bisa mendukung dengan cara:</p>
+<br>
+
+<table>
+<tr>
+<td align="center" width="300">
+<a href="https://saweria.co/Ruyynn">
+<img src="https://img.icons8.com/color/96/000000/indonesia.png" width="64"/>
+<br>
+<h3>🇮🇩 Saweria</h3>
+<p><code>https://saweria.co/Ruyynn</code></p>
+</a>
+<p>Dukung melalui platform Indonesia</p>
+</td>
+
+<td align="center" width="300">
+<a href="mailto:ruyynn25@gmail.com">
+<img src="https://img.icons8.com/color/96/000000/gmail.png" width="64"/>
+<br>
+<h3>📧 Email Collab</h3>
+<p><code>ruyynn25@gmail.com</code></p>
+</a>
+<p>Untuk kerjasama dan kolaborasi</p>
+</td>
+</tr>
+</table>
+
+<br>
+
+<details>
+<summary><b>📱 Scan QR Code untuk Support</b></summary>
+<br>
+<img src="https://api.qrserver.com/v1/create-qr-code/?size=200x200&data=https://saweria.co/Ruyynn" alt="QR Saweria">
+<br>
+<i>Scan dengan aplikasi QR reader untuk donasi via Saweria</i>
+</details>
+
+<br>
+
+<h3>💎 Cara Lain Mendukung</h3>
+<p>
+⭐ Star repository ini<br>
+🔄 Fork dan bagikan ke teman<br>
+🐛 Laporkan bug atau saran fitur<br>
+📢 Mention project ini di sosial media
+</p>
+</div>
+
+<!-- Contributors -->
+<h2>👥 Kontributor</h2>
+
+<div align="center">
+<table>
+<tr>
+<td align="center">
+  <a href="https://github.com/ruyynn">
+    <img src="https://github.com/ruyynn.png?size=100" width="100" style="border-radius:50%"/>
+    <br>
+    <b>Ruyynn</b>
+  </a>
+  <br>
+  <sub>Founder & Developer</sub>
+</td>
+</tr>
+</table>
+</div>
+
+<!-- How to Contribute -->
+<h2>🤝 Cara Berkontribusi</h2>
+
+<div align="center">
+<p>Kontribusi selalu diterima dengan senang hati! Ikuti langkah-langkah berikut:</p>
+
+<ol align="left">
+<li>🍴 Fork repository ini</li>
+<li>🌿 Buat branch baru: <code>git checkout -b fitur-keren</code></li>
+<li>💻 Commit perubahan: <code>git commit -m 'Add fitur keren'</code></li>
+<li>📤 Push ke branch: <code>git push origin fitur-keren</code></li>
+<li>🎯 Buat Pull Request</li>
+</ol>
+
+<br>
+
+<h3>📋 Guidelines Kontribusi</h3>
+<p>
+✅ Follow PEP 8 untuk Python code<br>
+✅ Tambahkan komentar untuk kode yang kompleks<br>
+✅ Update dokumentasi jika diperlukan<br>
+✅ Test sebelum submit PR
+</p>
+</div>
+
+<!-- License -->
+<h2>📜 Lisensi</h2>
+
+<div align="center">
+<p><strong>MIT License</strong></p>
+<p>Copyright (c) 2026 Ruyynn</p>
+
+<p>
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+</p>
+
+<p>
+The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+</p>
+
+<p>
+<i>THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.</i>
+</p>
+</div>
+
+<!-- Footer -->
+<div align="center">
+
+<img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png" width="100%">
+
+<br><br>
+
+<p><strong>Made with ❤️ in Indonesia</strong></p>
+
+<p>
+<a href="https://github.com/ruyynn/HACKME/issues/new">Laporkan Bug</a> •
+<a href="https://github.com/ruyynn/HACKME/discussions">Diskusi</a> •
+<a href="mailto:ruyynn25@gmail.com">Hubungi Developer</a>
+</p>
+
+<p>
+<a href="#-hackme-whatsapp-tools-v20---free-osint-edition">⬆️ Kembali ke Atas</a>
+</p>
+
+<br>
+
+<p>
+<sub>Last Updated: 2026-03-02 | Version 2.0</sub>
+</p>
+
+</div>
