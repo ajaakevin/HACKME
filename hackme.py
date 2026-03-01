@@ -129,7 +129,7 @@ class HACKME:
             return None
     
     def analyze_number(self, number):
-        """Analisis nomor menggunakan phonenumbers (REAL)"""
+        """Analisis nomor menggunakan phonenumbers"""
         result = {
             'input': number,
             'timestamp': datetime.now().isoformat(),
@@ -315,7 +315,7 @@ class HACKME:
     def menu_analyze(self):
         self.clear_screen()
         self.print_logo()
-        self.print_header("🔍 ANALISIS NOMOR - REAL PHONENUMBERS")
+        self.print_header("🔍 ANALISIS NOMOR - PHONENUMBERS")
         
         print(f"\n{YELLOW}Masukkan nomor telepon:{RESET}")
         print(f"{DIM}Contoh: 08123456789, +628123456789, 021123456{RESET}")
